@@ -1,0 +1,12 @@
+# Racine
+.idea
+
+# Frontend
+front/node_modules
+front/.idea
+front/.env
+
+# Backend
+back/node_modules
+back/.idea
+back/.env

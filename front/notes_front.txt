@@ -1,0 +1,5 @@
+!!!!!!!!!  REPARTIR DE CETTE VERSION DE TRAVAIL !!!!!!!!!
+
+npm create vite@latest front -- --template react
+
+Local:   http://localhost:5175/
