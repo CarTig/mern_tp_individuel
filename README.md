@@ -34,7 +34,7 @@ stack MERN axios
 
 CLONNAGE DU PROJET
 
-Cloner le dépôt :
+Cloner le dépôt : https://github.com/CarTig/mern_tp_individuel.git
 
 git clone 
 Installer les dépendances :
