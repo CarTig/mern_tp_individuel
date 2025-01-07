@@ -1,0 +1,37 @@
+npm init -y
+Penser après le démarrage du projet a rajouter dans package.json :
+"start" : "node app.js"
+	Au niveau des scripts
+
+
+nodemon
+npm install nodemon
+puis l'ajouter dans les scripts du package.json:
+"scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    }
+
+
+Se positionner dans le dossier et installer les bibliothèque nécessaire
+au bon fonctionnement du projet :
+npm i express
+npm i bcryptjs
+npm i mongoose
+=> ou en raccourci :
+npm i express bcryptjs mongoose
+
+une fois les dépendences intallées,
+
+créer :
+- l'app.js
+- le model de l'entité users
+- son user controller
+
+
+
+npm i cors  ==> pour autoriser le port à connecter
+
+npm install dotenv
+
+npm install jsonwebtoken
