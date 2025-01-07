@@ -1,7 +1,7 @@
 
 RESTITUTION DU TRAVAIL PRATIQUE 
 
-INTRODUCTION
+**INTRODUCTION**
 Comment installer et lancer le projet
 * le front
 initialisation du projet en react
@@ -9,30 +9,30 @@ initialisation du projet en react
 * le back
 création de l'architecture
 
-ROADMAP DU TD
+**ROADMAP DU TD**
 
 1. Système d'authentification
    ✅ Inscription + validation des données + redirection home ==> Fonctionnel
    ✅ Connexion ==> Fonctionnel (ajouter la redirection vers ads quand la partie ads sera finie)
    ✅ Update + delete + afficher utilisateur ==> Fonctionnel
 
-2. Pages obligatoires
+3. Pages obligatoires
    ✅ Page inscription ==>  Fonctionnel
    ✅ Page de connexion ==> Fonctionnel
 
 
-3. CRUD sur les annonces
+4. CRUD sur les annonces
    ✅ Voir toutes les annonces  ==> Fonctionnel
    ✅ Ajouter, modifier  ==> Fonctionnel
    ⌛ ❌ ou supprimer des annonces  ==> non Fonctionnel
 
 
-LES TECHNO
+**LES TECHNO**
 stack MERN axios
 
 
 
-CLONNAGE DU PROJET
+**CLONNAGE DU PROJET**
 
 Cloner le dépôt : https://github.com/CarTig/mern_tp_individuel.git
 
