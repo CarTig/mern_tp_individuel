@@ -9,7 +9,8 @@ const PORT = 8080;
 
 const mongoose = require("mongoose");
 mongoose
-    .connect("mongodb://127.0.0.1:27017/mern_tp_individuel", {})
+    //VERSION SANS DOCKER : .connect("mongodb://127.0.0.1:27017/mern_tp_individuel", {})
+    .connect("mongodb://mongodb:27017/mern_tp_individuel", {})//VERSION AVEC DOCKER
     .then(() => {
         console.log("Connecté à la base MongoDB !");
     })
