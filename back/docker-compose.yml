@@ -2,10 +2,10 @@ version: '3.8'
 
 services:
   backend:
-    build: ./back #pour construire l'image à partir du Dockerfile
+    build: . #pour construire l'image à partir du Dockerfile
     working_dir: /app
     volumes:
-      - ./back:app
+      - ./back:/app
     command: ["npm", "start"]
     ports:
       - "8080:8080"
