@@ -1,5 +1,6 @@
 import React, { useState , useEffect} from 'react';
 import axios from "axios";
+import '../../assets/styles/ads.css';
 
 
 const Ads = () => {
@@ -34,9 +35,9 @@ const Ads = () => {
     };
 
     return (
-        <div>
+        <div className="ads-container">
             <h1>Créer une annonce</h1>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} className="ads-form">
                 <input
                     type="text"
                     name="title"
@@ -44,6 +45,7 @@ const Ads = () => {
                     value={formData.title}
                     onChange={handleChange}
                     required
+                    className="ads-input"
                 />
                 <textarea
                     name="description"
@@ -51,6 +53,7 @@ const Ads = () => {
                     value={formData.description}
                     onChange={handleChange}
                     required
+                    className="ads-textarea"
                 />
                 <input
                     type="number"
@@ -59,10 +62,11 @@ const Ads = () => {
                     value={formData.price}
                     onChange={handleChange}
                     required
+                    className="ads-input"
                 />
-                <button type="submit">Créer</button>
+                <button type="submit" className="ads-button">Créer</button>
             </form>
-            {message && <p>{message}</p>}
+            {message && <p className={message.includes("Erreur") ? "error" : "success"}>{message}</p>}
         </div>
     );
 };

@@ -1,0 +1,89 @@
+
+/* Conteneur principal */
+.ads-container {
+    font-family: 'Montserrat', sans-serif; /* Police Montserrat */
+    background-color: #ffffff;
+    padding: 40px 20px;
+    color: #333333; /* Texte en noir/gris foncé */
+    text-align: center;
+}
+
+/* Titre principal de la page */
+.ads-container h1 {
+    font-size: 32px;
+    color: #333333; /* Gris foncé */
+    margin-bottom: 20px;
+}
+
+/* Formulaire */
+.ads-form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Champ de texte */
+.ads-form input,
+.ads-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+}
+
+.ads-form input:focus,
+.ads-form textarea:focus {
+    border-color: #87ceeb;
+    outline: none;
+}
+
+.ads-form textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+/* Bouton */
+.ads-form button {
+    background-color: #87ceeb;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 12px 30px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.ads-form button:hover {
+    background-color: #68a9c4; /* Bleu plus foncé au survol */
+}
+
+/* Message de succès ou erreur */
+.ads-container p {
+    font-size: 18px;
+    color: #444444; /* Gris foncé */
+    margin-top: 20px;
+}
+
+.ads-container .success {
+    color: #63a371; /* Vert pour succès */
+}
+
+.ads-container .error {
+    color: #d85850; /* Rouge pour erreur */
+}
+
+/* Responsive : Ajustement pour les petits écrans */
+@media (max-width: 768px) {
+    .ads-form {
+        padding: 20px;
+    }
+}
