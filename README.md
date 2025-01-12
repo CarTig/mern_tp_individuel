@@ -50,13 +50,15 @@ Configuration : Dans votre dossier backend, créez un fichier .env et ajoutez le
 
 Dans le .env
 JWT_SECRET=sLeZHsP333***
+===========
+
 
 Démarrage
 Démarrer le serveur :
 Dans le dossier backend du projet :
 
 npm run dev
-Démarrer le client : Dans le dossier frontend du projet :
+Démarrer le client : dans le dossier frontend du projet :
 
 npm run dev
-Accéder à l'application : Le frontend sera disponible sur http://localhost:5175
+Accéder à l'application :  disponible sur http://localhost:5175

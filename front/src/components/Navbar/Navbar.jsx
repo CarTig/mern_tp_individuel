@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link} from "react-router-dom";
 
+import '../../assets/styles/navbar.css';
 
 const Navbar = () => {
     return (
@@ -16,6 +17,16 @@ const Navbar = () => {
                     </li>
 
                     <li>
+                        <Link to="/users">Utilisateurs</Link>
+                    </li>
+                    <li>
+                        <Link to="/ads">Ajouter une annonce</Link>
+                    </li>
+                    <li>
+                        <Link to="/adslist">Mes annonces</Link>
+                    </li>
+
+                    <li>
                         <Link to="/login">Connexion</Link>
                     </li>
 
@@ -23,15 +34,6 @@ const Navbar = () => {
                         <Link to="/logout">Déconnexion</Link>
                     </li>
 
-                    <li>
-                        <Link to="/users">Utilisateurs</Link>
-                    </li>
-                    <li>
-                        <Link to="/ads">Ajouter une annonce</Link>
-                    </li>
-                    <li>
-                        <Link to="/adslist">Liste d'annonces</Link>
-                    </li>
                 </ul>
             </nav>
 
